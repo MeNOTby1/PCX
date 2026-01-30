@@ -1,4 +1,4 @@
-# 🖥️ PC Analyzer
+# 🖥️ PCX v1.0 Alpha
 
 PC Analyzer is a lightweight system analysis tool written in AutoHotkey.
 It detects your hardware and calculates a score based on your system performance.
@@ -11,30 +11,20 @@ It detects your hardware and calculates a score based on your system performance
 - Clean table UI
 - Lightweight and portable
 
-## 📊 Example Output
+## 📸 Screenshots
 
-| Category | Value | Score |
-|--------|------|------|
-| RAM | 16 GB | +16 |
-| Storage | 1 TB | +30 |
-| OS | Windows | +24 |
-| CPU | Ryzen 5 5600X | +40 |
-| GPU | RTX 3060 | +76 |
+![](screenshots/Screenshot_smenu)
+
+![](screenshots/Screenshot_anys)
 
 ## 🚀 Usage
 
-1. Install AutoHotkey
-2. Run `PC Analyzer.ahk`
+1. Install AutoHotkey and .ahk file
+2. Run `PCX.ahk`
 3. Click **Start Analysis**
 
-## 🛠️ Built With
+or
 
-- AutoHotkey v1
-
-## 📸 Screenshot
-
-(Add your screenshot here)
-
-## 📜 License
-
-MIT License
+1. Install .exe file
+2. Run `PCX.exe`
+3. Click **Start Analysis**
