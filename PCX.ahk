@@ -3,22 +3,22 @@
 SetWorkingDir %A_ScriptDir%
 
 ; ===== START WINDOW =====
-Gui, Font, s11, Segoe UI
-Gui, Add, Text, x0 y20 w320 Center, PC Analyzer
+Gui, Font, s11 bold, Segoe UI
+Gui, Add, Text, x0 y20 w320 Center, PCX Analyzer
+Gui, Font, s11 norm, Segoe UI
+Gui, Add, Text, x0 y130 w320 Center, made by MeNOTby1
 Gui, Add, Button, x100 y80 w120 h30 gStartAnalysis, Start Analysis
-Gui, Show, w320 h150, PCX v1.0
+Gui, Show, w320 h170, PCX v1.1
 return
 
 StartAnalysis:
 Gui, Destroy
 
 startTime := A_TickCount
-TrayTip, PCX v1.0, Analyzing system..., 2
-
-Sleep, 2000
+TrayTip, PCX v1.1, Analyzing system..., 2
 
 if ((A_TickCount - startTime) > 3000)
-    MsgBox, 64, PCX v1.0, Analysis is taking longer than expected. Please stay calm...
+    MsgBox, 64, PCX v1.1, Analysis is taking longer than expected. Please stay calm...
 
 ramGB := GetRAM()
 storageText := GetStorageText()
@@ -97,23 +97,23 @@ maxScore += 55   ; CPU max ≈ 55
 ; ===== GPU SCORE =====
 gpuScore := 0
 if (gpuBrand = "NVIDIA")
-    gpuScore += 46
+    gpuScore += 26
 else if (gpuBrand = "AMD")
     gpuScore += 26
 else if (gpuBrand = "Intel")
     gpuScore += 12
 
 if InStr(gpuModel, "RTX")
-    gpuScore += 30
+    gpuScore += 25
 else if InStr(gpuModel, "GTX")
-    gpuScore += 15
+    gpuScore += 10
 else if InStr(gpuModel, "RX")
-    gpuScore += 20
+    gpuScore += 15
 else if InStr(gpuModel, "UHD") || InStr(gpuModel, "Iris")
     gpuScore += 5
 
 score += gpuScore
-maxScore += 76   ; GPU max ≈ 76
+maxScore += 51   ; GPU max ≈ 51
 
 ; ===== PERCENTAGE =====
 percent := Round((score / maxScore) * 100, 1)
@@ -136,7 +136,7 @@ LV_Add("", "CPU", cpuModel, "+" cpuScore)
 LV_Add("", "GPU", gpuModel, "+" gpuScore)
 
 Gui, Add, Button, x230 y230 w100 h30 gCloseApp, Close
-Gui, Show, w560 h280, PCX v1.0
+Gui, Show, w560 h280, PCX v1.1
 return
 
 CloseApp:
