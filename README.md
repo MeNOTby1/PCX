@@ -1,11 +1,22 @@
-<img src="https://i.imgur.com/dL9fsvG.png" width="200">
+<p align="center">
+  <img src="https://i.imgur.com/dL9fsvG.png" width="300">
+<p/>
 
-<a href="https://github.com/MeNOTby1/PCX/releases/latest">
-  <img
-    src="https://img.shields.io/github/v/tag/MeNOTby1/PCX?label=PCX&color=white"
-    alt="PCX version"
-    width="120">
-</a>
+<p align="center">
+  <a href="https://github.com/MeNOTby1/PCX/releases/latest">
+    <img
+      src="https://img.shields.io/github/v/tag/MeNOTby1/PCX?label=PCX&color=white"
+      alt="PCX version"
+      width="130">
+  </a>
+
+  <a href="https://github.com/MeNOTby1/PCX/releases/latest">
+    <img
+      src="https://img.shields.io/github/downloads/MeNOTby1/PCX/total?label=Downloads&color=brightgreen"
+      alt="Total downloads"
+      width="175">
+  </a>
+</p>
 
 # PCX v1.0 Alpha
 
@@ -22,11 +33,12 @@ It detects your hardware and calculates a score based on your system performance
 - Lightweight and portable
 
 ## Screenshots
-
-<img src="screenshots%20/smenu.png" width="500">
-
-<img src="screenshots%20/anys.png" width="500">
-
+<p align="center">
+  <img src="screenshots%20/smenu.png" width="500">
+<p/>
+<p align="center">
+  <img src="screenshots%20/anys.png" width="500">
+<p/>
 ## Usage
 
 1. Install AutoHotkey and .ahk file
