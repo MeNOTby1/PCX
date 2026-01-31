@@ -13,9 +13,9 @@ It detects your hardware and calculates a score based on your system performance
 
 ## Screenshots
 
-![](screenshots/screenshot_smenu.png)
+![](screenshots%20/smenu.png)
 
-![](screenshots/screenshot_anys.png)
+![](screenshots%20/anys.png)
 
 ## Usage
 
