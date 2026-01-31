@@ -1,4 +1,14 @@
+<img src="https://i.imgur.com/dL9fsvG.png" width="200">
+
+<a href="https://github.com/MeNOTby1/PCX/releases/latest">
+  <img
+    src="https://img.shields.io/github/v/tag/MeNOTby1/PCX?label=PCX&labelColor=black&color=white"
+    alt="PCX version"
+    width="120">
+</a>
+
 # PCX v1.0 Alpha
+
 
 PC Analyzer is a lightweight system analysis tool written in AutoHotkey.
 It detects your hardware and calculates a score based on your system performance.
@@ -13,9 +23,9 @@ It detects your hardware and calculates a score based on your system performance
 
 ## Screenshots
 
-![](screenshots%20/smenu.png)
+<img src="screenshots%20/smenu.png" width="500">
 
-![](screenshots%20/anys.png)
+<img src="screenshots%20/anys.png" width="500">
 
 ## Usage
 
