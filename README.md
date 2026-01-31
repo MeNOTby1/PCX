@@ -2,7 +2,7 @@
 
 <a href="https://github.com/MeNOTby1/PCX/releases/latest">
   <img
-    src="https://img.shields.io/github/v/tag/MeNOTby1/PCX?label=PCX&labelColor=black&color=white"
+    src="https://img.shields.io/github/v/tag/MeNOTby1/PCX?label=PCX&color=white"
     alt="PCX version"
     width="120">
 </a>
